@@ -1,0 +1,22 @@
+{
+    "authors": [
+        {
+            "email": "andykanidimbu@gmail.com",
+            "name": "Andy Kani"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AndyKani\\MonPackage\\": "src/"
+        }
+    },
+    "description": "mon premier package laravel pour tester",
+    "name": "andy-kani/mon-package",
+    "require": {
+        "illuminate/support": "^10.0",
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.16"
+    }
+}
