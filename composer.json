@@ -13,10 +13,11 @@
     "description": "mon premier package laravel pour tester",
     "name": "andy-kani/mon-package",
     "require": {
-        "illuminate/support": "^10.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
         "php": "^8.2"
     },
     "require-dev": {
         "barryvdh/laravel-debugbar": "^3.16"
-    }
+    },
+    "version": "1.0.0"
 }
